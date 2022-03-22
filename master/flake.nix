@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-termui-master.flake = false;
+  inputs.src-termui-master.ref   = "refs/heads/master";
   inputs.src-termui-master.owner = "jjv360";
-  inputs.src-termui-master.ref   = "master";
   inputs.src-termui-master.repo  = "nim-termui";
   inputs.src-termui-master.type  = "github";
   
