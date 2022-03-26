@@ -11,6 +11,7 @@
   inputs.src-termui-master.ref   = "refs/heads/master";
   inputs.src-termui-master.owner = "jjv360";
   inputs.src-termui-master.repo  = "nim-termui";
+  inputs.src-termui-master.dir   = "";
   inputs.src-termui-master.type  = "github";
   
   inputs."classes".owner = "nim-nix-pkgs";
