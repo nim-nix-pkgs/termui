@@ -3,9 +3,11 @@
     "classes": {
       "inputs": {
         "flakeNimbleLib": [
+          "termui-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "termui-master",
           "nixpkgs"
         ],
         "src-classes-v0_2_11": "src-classes-v0_2_11"
@@ -30,20 +32,22 @@
     "elvis": {
       "inputs": {
         "flakeNimbleLib": [
+          "termui-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "termui-master",
           "nixpkgs"
         ],
         "src-elvis-v0_5_0": "src-elvis-v0_5_0"
       },
       "locked": {
         "dir": "v0_5_0",
-        "lastModified": 1651917858,
-        "narHash": "sha256-oC/JF6JVcNtVr8/YVMvgIhQ1Y2DAB7+lCeZEjXX50vI=",
+        "lastModified": 1651555395,
+        "narHash": "sha256-EQwRTcSJ+wiiK4++Nso6v6WWPh7XE/EycCoYWgBdpYI=",
         "owner": "nim-nix-pkgs",
         "repo": "elvis",
-        "rev": "59ab93e29e734cd3521736abfd09b609a717a311",
+        "rev": "3bc407e4efec4ef2526ac2f82b66eee2abcb8132",
         "type": "github"
       },
       "original": {
@@ -88,11 +92,9 @@
     },
     "root": {
       "inputs": {
-        "classes": "classes",
-        "elvis": "elvis",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-termui-master": "src-termui-master"
+        "termui-master": "termui-master"
       }
     },
     "src-classes-v0_2_11": {
@@ -143,6 +145,35 @@
         "owner": "jjv360",
         "ref": "refs/heads/master",
         "repo": "nim-termui",
+        "type": "github"
+      }
+    },
+    "termui-master": {
+      "inputs": {
+        "classes": "classes",
+        "elvis": "elvis",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-termui-master": "src-termui-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651589770,
+        "narHash": "sha256-Y5FIFvCg21mwFTX/vWe3C1wGkjul0140y6+xsLG+Y6I=",
+        "owner": "nim-nix-pkgs",
+        "repo": "termui",
+        "rev": "65896a5ee9539db131604b78ac995a0f22612a50",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "termui",
         "type": "github"
       }
     }
