@@ -39,11 +39,11 @@
       },
       "locked": {
         "dir": "v0_5_0",
-        "lastModified": 1656300870,
-        "narHash": "sha256-M9EArrDykSRp0JKJ4CoeM+PR8JRdMw8OLbZH+RWDvSQ=",
+        "lastModified": 1656746721,
+        "narHash": "sha256-YQ6WIvyTR5tuI4hB3nmN4tjRvaIN6o5+wC5nTQ+djcw=",
         "owner": "nim-nix-pkgs",
         "repo": "elvis",
-        "rev": "3447dea85f6bdd42167dc4e6cb1602fd83643fef",
+        "rev": "e934eb75e3ec8b3669699d5168d724b92bd404b7",
         "type": "github"
       },
       "original": {
